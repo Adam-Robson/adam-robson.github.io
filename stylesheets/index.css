@@ -137,7 +137,7 @@ figure {
 
 .caption {
   position: absolute;
-  bottom: 50%;
+  bottom: 15%;
   left: 0;
   width: 100%;
   background-color: var(--text);
@@ -146,26 +146,11 @@ figure {
   padding: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
 }
 
-.media-container:hover .caption {
+.video-container:hover .caption {
   opacity: 1;
-}
-
-.morelink {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: var(--primary);
-  color: white;
-  text-decoration: none;
-  border-radius: 1rem;
-  transition: background-color 0.3s ease;
-}
-
-.more-link:hover {
-  background-color: var(--accent);
 }
 
 .text-container {
