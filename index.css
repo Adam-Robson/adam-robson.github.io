@@ -95,19 +95,7 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-/* 
-main {
-  height: 100%;
-  min-width: 320px;
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-  padding: 0 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-} */
+
 main {
   height: 100%;
   min-width: 320px;
