@@ -1,3 +1,4 @@
 # adam-robson.github.io
 
-This is deployed through GitHub Pages and includes some information about me.
+This site includes some information about me, and is deployed through
+GitHub pages.

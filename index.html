@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100;200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-  <link rel="stylesheet" href="/stylesheets/index.css">
+  <link rel="stylesheet" href="index.css">
   <title>Adam Robson</title>
 </head>
+
 <body>
-  <div class="container">
   <header>
     <nav>
-        <ul>
-          <li><a href="/about">about</a></li>
-          <li><a href="/contact">contact</a></li>
-          <li><a href="/other">other</a></li>
-        </ul>
-      </nav>
+      <ul>
+        <li><a href="/about">about</a></li>
+        <li><a href="/contact">contact</a></li>
+        <li><a href="/other">other</a></li>
+      </ul>
+    </nav>
   </header>
   <main>
-    <div class="image-container">
-      <img src="/images/horizon.gif" alt="adam robson" width="500" />
-    </div>
-    <p class="text-container"><b>hello!</b></p>
-    <p class="text-container">i'm adam robson, a software engineer based in the pacific northwest u.s.</p>
+    <figure>
+      <div class="video-container">
+        <video class="video" width="350" autoplay loop muted controls>
+          <source src="/images/salt.webm" type="video/webm" />
+          <source src="/images/salt.mp4" type="video/mp4" />
+
+          This browser does not support HTML video. Download the
+          <a href="/images/salt.webm">webm</a>
+          or
+          <a href="/images/salt.mp4">mp4</a> to play instead.
+        </video>
+        <figcaption class="caption">eating ice cream on the street in la paz, mx
+        </figcaption>
+      </div>
+    </figure>
+    <p class="text-container">web design & development, for people</p>
+    <p class="text-container"><b>adam robson</b></p>
   </main>
-  </div>
+  <script src="index.js"></script>
 </body>
+
 </html>
