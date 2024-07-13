@@ -18,3 +18,8 @@ main {
   height: auto;
 }
 
+.email-container {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
